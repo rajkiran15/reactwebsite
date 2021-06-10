@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+header{
+  background-color: blueviolet;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  color: aliceblue;
+}
+.navbar{
+  color:white;
+  text-transform: uppercase;
+}
